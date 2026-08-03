@@ -18,7 +18,7 @@ function parseString(str: string, ptr: number): [string, number] {
     c = str[i]!;
 
     if (isMultiline && (c === "\n" || (c === "\r" && str[i + 1] === "\n"))) {
-      state = state && 3;
+      state &&= 3;
     } else if ((c < "\x20" && c !== "\t") || c === "\x7f") {
       throw new TomlError("control characters are not allowed in strings", {
         toml: str,
