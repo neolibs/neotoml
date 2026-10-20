@@ -25,7 +25,7 @@
     "@neotoml/stringifier": "workspace:*"
   },
   "devDependencies": {
-    "tsdown": "0.23.0"
+    "tsdown": "0.23.1"
   },
   "engines": {
     "node": ">=22"
