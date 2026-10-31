@@ -22,7 +22,7 @@
     "prof": "bun --cpu-prof-md --cpu-prof-dir ./profiling/profiles profiling/index.ts"
   },
   "devDependencies": {
-    "tsdown": "0.23.3"
+    "tsdown": "0.23.4"
   },
   "engines": {
     "node": ">=22"
